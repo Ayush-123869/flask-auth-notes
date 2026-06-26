@@ -1,4 +1,4 @@
-# Flask Auth + Notes API
+# Flask Auth  +  Notes API
 
 A production-ready, scalable RESTful API built with Flask, SQLAlchemy, and PostgreSQL. It features robust JWT-based user authentication, a complete Notes CRUD system, advanced querying (search, filter, sort, pagination), and centralized error handling.
 
