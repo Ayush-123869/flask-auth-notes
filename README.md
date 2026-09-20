@@ -4,7 +4,7 @@ A production-ready, scalable RESTful API built with Flask, SQLAlchemy, and Postg
 
 This project is built using a modular application factory and Blueprint architecture, making it highly maintainable and easily extensible for future enterprise-level features.
 
-## 🚀 Key Features
+##  Key Features
 
 - **Authentication System**: Secure user registration and login using `Flask-Bcrypt` for password hashing and `Flask-JWT-Extended` for token-based authentication.
 - **Notes Management**: Full CRUD operations (Create, Read, Update, Delete) for user-specific notes.
@@ -17,7 +17,7 @@ This project is built using a modular application factory and Blueprint architec
 - **Unit Testing**: Comprehensive automated testing using `pytest` and an isolated in-memory SQLite database.
 - **Database Architecture**: SQLAlchemy ORM integrated with PostgreSQL and Flask-Migrate for version-controlled database schemas.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Backend Framework**: Python 3.x, Flask 3.x
 - **Database**: PostgreSQL
@@ -25,13 +25,13 @@ This project is built using a modular application factory and Blueprint architec
 - **Security**: Flask-JWT-Extended, Flask-Bcrypt
 - **Testing**: Pytest
 
-## 📋 Prerequisites
+##  Prerequisites
 
 To run this project, you will need:
 - Python 3.8+
 - PostgreSQL server running locally or via Docker
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository**
    ```bash
@@ -79,7 +79,7 @@ To run this project, you will need:
    ```
    The API will be available at `http://127.0.0.1:5000`
 
-## 🧪 Running Tests
+##  Running Tests
 
 This project includes a suite of unit tests utilizing an in-memory SQLite database to ensure the development database remains isolated.
 
@@ -87,7 +87,7 @@ This project includes a suite of unit tests utilizing an in-memory SQLite databa
 pytest
 ```
 
-## 📖 API Documentation Summary
+##  API Documentation Summary
 
 ### Auth Endpoints
 - `POST /api/auth/register` - Register a new user
@@ -105,6 +105,6 @@ pytest
 > All protected routes require a Bearer token in the request header:
 > `Authorization: Bearer <your_access_token>`
 
-## 📝 License
+##  License
 
 This project is open-source and available under the MIT License.
